@@ -26,7 +26,7 @@ DELETE https://rhubarb-surprise-47059.herokuapp.com/api/users/favourites/tsla wi
 
 Thought process  
 I focused on creating the back end peice of functionality for the overall solution of the project. I added very basic user registration to simulate the ability for users
-to log in so they can view thier favorite stocks.
+to log in so they can view their favorite stocks.
 The app allows user to regiter. The user can then query other end points with basic auth enabled using thier previously registered user name and password.
 The app then checks the db against the user retrieved from the basic auth in the request. If there is a match, the user can successfully carry out thier request as they are
 an authenticted user. This is also how stocks are saved for the user in the db.
